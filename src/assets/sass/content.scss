@@ -1,1 +1,75 @@
 @import "colors";
+
+.content {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .info {
+            margin-top: 135px;
+            .selection {
+                text-transform: uppercase;
+                font-size: 14px;
+                .selection__year {
+                    padding: 0 9px;
+                    line-height: 21px;
+                    border-radius: 2px;
+                    background-color: $yellow;
+                    margin-right: 13px;
+                }
+                .selection__action {
+                    padding: 0 9px;
+                    line-height: 21px;
+                    border-radius: 2px;
+                    background-color: $light-blue;
+                    margin-right: 13px;
+                }
+                .selection__adventure {
+                    background-color: $orange;
+                    padding: 0 9px;
+                    line-height: 21px;
+                    border-radius: 2px;
+                }
+            }
+            .info__name {
+                margin-top: 20px;
+                font-size: 60px;
+            }
+            .info__story {
+                width: 470px;
+                margin-top: 40px;
+            }
+            .wrapper {
+                text-transform: uppercase;
+                font-size: 12px;
+                margin-top: 45px;
+                .play-button {
+                    display: inline-block;
+                    line-height: 42px;
+                    border-radius: 19px;
+                    padding: 0 20px;
+                    background-color: $red-button;
+                    margin-right: 25px;
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+                .add-button {
+                    display: inline-block;
+                    line-height: 42px;
+                    border-radius: 19px;
+                    padding: 0 20px;
+                    background-color: $black;
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+        .film-poster {
+            .film-poster__img {
+                margin-right: 120px;
+                margin-top: 30px;
+            }
+        }
+    }
+}
