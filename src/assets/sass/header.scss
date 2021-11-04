@@ -1,31 +1,28 @@
 @import "colors";
 
-.home-header{
-    .top-line{
-        a{
-
+.home-header {
+    .top-line {
+        display: flex;
+        justify-content: space-between;
+        a {
         }
-        nav{
-            .top-menu{
-                .top-menu__item{
-
+        nav {
+            .top-menu {
+                display: flex;
+                .top-menu__item {
+                    display: block;
                 }
             }
         }
-        .search-form{
-            .search-form__input{
-
+        .search-form {
+            .search-form__input {
             }
-            .search-form__button{
-
+            .search-form__button {
             }
         }
-        .top-line__login{
-
+        .top-line__login {
         }
-        .top-line__subscribe{
-            
+        .top-line__subscribe {
         }
-
     }
 }
