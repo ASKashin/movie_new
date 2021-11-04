@@ -9,20 +9,53 @@
         nav {
             .top-menu {
                 display: flex;
-                .top-menu__item {
+                justify-content: space-between;
+                gap: 35px;
+                &__item {
                     display: block;
+                    &__link {
+                        text-transform: capitalize;
+                        transition: color 0.3s ease-in-out;
+                        &:hover {
+                            color: $red;
+                        }
+                    }
                 }
             }
         }
-        .search-form {
-            .search-form__input {
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            .search-form {
+                position: relative;
+                .search-form__input {
+                    background-color: transparent;
+                    border: none;
+                    border-bottom: 1px solid $red;
+                    padding-bottom: 3px;
+                    &::placeholder{
+                        color: $red;
+                        font-size: 10px;
+                        font-weight: 300;
+                    }
+                }
+                .search-form__button {
+                    background-color: transparent;
+                    border: none;
+                    position: absolute;
+                    color: $red;
+                    right: 0px;
+                }
             }
-            .search-form__button {
+            .login {
+                transition: color 0.3s ease-in-out;
+                &:hover {
+                    color: $red;
+                }
             }
-        }
-        .top-line__login {
-        }
-        .top-line__subscribe {
+            .subscribe {
+            }
         }
     }
 }
