@@ -1,0 +1,73 @@
+@import "colors";
+
+.content {
+    margin-top: 60px;
+    .container {
+        justify-content: space-between;
+        .wrapper {
+            margin-top: 110px;
+            ul {
+                gap: 13px;
+                li {
+                    display: inline-block;
+                    a {
+                        display: block;
+                        padding: 0 8px;
+                        text-transform: uppercase;
+                        font-size: 14px;
+                        height: 21px;
+                        line-height: 21px;
+                        text-align: center;
+                        border-radius: 2px;
+                        &.year {
+                            background-color: $yellow;
+                        }
+                        &.action {
+                            background-color: $light-blue;
+                        }
+                        &.adventure {
+                            background-color: $orange;
+                        }
+                    }
+                }
+            }
+            h3 {
+                font-size: 60px;
+                line-height: 60px;
+                margin-top: 20px;
+            }
+            p {
+                margin-top: 40px;
+                width: 480px;
+                font-size: 14px;
+                line-height: 23px;
+                font-weight: 300;
+            }
+            div {
+                padding-top: 40px;
+                gap: 25px;
+                font-size: 12px;
+                a {
+                    display: block;
+                    text-transform: uppercase;
+                    height: 42px;
+                    line-height: 42px;
+                    border-radius: 19px;
+                    padding: 0 25px;
+                    i{
+                        padding-right: 5px;
+                    }
+                    &.play {
+                        background-color: $red-button;
+                    }
+                    &.add {
+                        background-color: $black;
+                    }
+                }
+            }
+        }
+        .banner {
+            margin-right: 120px;
+        }
+    }
+}

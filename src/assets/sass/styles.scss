@@ -3,50 +3,44 @@
 @import "variables";
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    background: url("../img/bg1.jpg") center top no-repeat, $blue;
+    color: $gray;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.flex {
+    display: flex;
 }
 
 .container {
-  margin: 0 auto;
-  width: $full-width;
+    width: 73.125rem;
+    margin: 0 auto;
 }
 
-h1,
-h2 {
-  font-weight: 300;
-  margin: 0.5rem 0 1rem;
+a {
+    text-decoration: none;
+    color: $white;
 }
 
 h3 {
-  margin: 0.5rem 0 1rem;
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: $white;
+    text-transform: uppercase;
 }
 
-p,
-code {
-  display: block;
-  margin-bottom: 0.625rem;
+h4 {
+    font-weight: 300;
+    font-size: 0.875rem;
 }
 
-pre {
-  background-color: #dcdcdc;
-  font-size: 0.85rem;
-  padding: 0.5rem 0.7rem;
-}
-
-ul {
-  padding-left: 1rem;
-
-  li {
-    margin-bottom: 0.5rem;
-  }
-}
-
-@import "footer";
 @import "header";
-@import "main";
+@import "content";
