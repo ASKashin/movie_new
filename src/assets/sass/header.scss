@@ -4,7 +4,12 @@
     .top-line {
         display: flex;
         justify-content: space-between;
-        a {
+        height: 110px;
+        align-items: center;
+        .logo {
+            .logo__img{
+
+            }
         }
         nav {
             .top-menu {
@@ -26,6 +31,7 @@
         .wrapper {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             gap: 30px;
             .search-form {
                 position: relative;
@@ -34,10 +40,17 @@
                     border: none;
                     border-bottom: 1px solid $red;
                     padding-bottom: 3px;
+                    color: $red;
+                    font-size: 14px;
+                    
+         
                     &::placeholder{
                         color: $red;
                         font-size: 10px;
                         font-weight: 300;
+                    }
+                    &:focus{
+                        outline: none;
                     }
                 }
                 .search-form__button {
@@ -48,13 +61,23 @@
                     right: 0px;
                 }
             }
-            .login {
+            .login-button {
                 transition: color 0.3s ease-in-out;
+                line-height: 42px;
                 &:hover {
                     color: $red;
                 }
             }
-            .subscribe {
+            .signup-button {
+                background-color: $red-button;
+                text-transform: capitalize;
+                line-height: 42px;
+                padding:0 27px ;
+                border-radius:  19px;
+                transition: background-color 0.3s ease-in-out;
+                &:hover{
+                    background-color: darken($red-button, 15);
+                }
             }
         }
     }
