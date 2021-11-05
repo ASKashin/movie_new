@@ -1,13 +1,11 @@
 @import "colors";
 
 .content-2 {
-    background: url("../img/bg2.jpg") center top no-repeat,$blue;
+    background: url("../img/bg2.jpg") center top no-repeat, $blue;
+    padding: 66px 0;
     .container {
         display: flex;
         justify-content: space-between;
-        padding: 66px 0;
-        .film-poster {
-        }
         .info {
             margin-top: 67px;
             text-align: right;
