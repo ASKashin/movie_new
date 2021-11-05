@@ -6,35 +6,35 @@
         justify-content: space-between;
         .info {
             margin-top: 135px;
-            .selection {
+            .categories {
                 text-transform: uppercase;
                 font-size: 14px;
-                .selection__year {
+                &__year {
                     padding: 0 9px;
                     line-height: 21px;
                     border-radius: 2px;
                     background-color: $yellow;
                     margin-right: 13px;
                 }
-                .selection__action {
+                &__action {
                     padding: 0 9px;
                     line-height: 21px;
                     border-radius: 2px;
                     background-color: $light-blue;
                     margin-right: 13px;
                 }
-                .selection__adventure {
+                &__adventure {
                     background-color: $orange;
                     padding: 0 9px;
                     line-height: 21px;
                     border-radius: 2px;
                 }
             }
-            .info__name {
+            &__name {
                 margin-top: 20px;
                 font-size: 60px;
             }
-            .info__story {
+            &__story {
                 width: 470px;
                 margin-top: 40px;
             }
@@ -66,7 +66,7 @@
             }
         }
         .film-poster {
-            .film-poster__img {
+            &__img {
                 margin-right: 120px;
                 margin-top: 30px;
             }
