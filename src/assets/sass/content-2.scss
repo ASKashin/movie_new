@@ -45,27 +45,10 @@
                 text-transform: uppercase;
                 font-size: 12px;
                 margin-top: 45px;
-                .play-button {
-                    display: inline-block;
-                    line-height: 42px;
-                    border-radius: 19px;
-                    padding: 0 20px;
-                    background-color: $red-button;
-                    margin-right: 25px;
-                    i {
-                        padding-right: 10px;
-                    }
+                .btn:last-child{
+                    margin-left: 25px;
                 }
-                .add-button {
-                    display: inline-block;
-                    line-height: 42px;
-                    border-radius: 19px;
-                    padding: 0 20px;
-                    background-color: $black;
-                    i {
-                        padding-right: 10px;
-                    }
-                }
+                
             }
         }
     }

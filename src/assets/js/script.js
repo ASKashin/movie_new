@@ -3,7 +3,13 @@
 
   $(document).ready(function () {
 
-    console.log("script here")
+    $('.slider').slick({
+      infinite: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      prevArrow:'<i class="fa fa-angle-left slick-prev" aria-hidden="true"></i>',
+      nextArrow:'<i class="fa fa-angle-right slick-next" aria-hidden="true"></i>',
+    });
 
   });
 })(jQuery); // End of use strict

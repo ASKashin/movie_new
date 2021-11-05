@@ -1,0 +1,29 @@
+.btn {
+    display: inline-block;
+    line-height: 42px;
+    border-radius: 19px;
+    padding: 0 20px;
+    background-color: $black;
+    transition: all 0.3s ease-in-out;
+    i {
+        padding-right: 10px;
+    }
+    &:hover {
+        background-color: lighten($black, 15);
+    }
+    &.red {
+        background-color: $red-button;
+        &:hover {
+            background-color: darken($red-button, 15);
+        }
+    }
+    &.ghost {
+        background-color: transparent;
+        &:hover{
+            color: $red;
+        }
+    }
+    &.small {
+        padding: 0 15px;
+    }
+}

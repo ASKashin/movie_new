@@ -1,6 +1,8 @@
 @import "colors.scss";
 @import "fonts.scss";
 @import "variables";
+@import "buttons";
+@import "slider";
 
 * {
     box-sizing: border-box;
@@ -42,6 +44,9 @@ h4 {
     color: $white;
 }
 
+
+
+@import "slick";
 @import "header";
 @import "content-1";
 @import "content-2";

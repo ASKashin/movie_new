@@ -61,24 +61,6 @@
                     right: 0px;
                 }
             }
-            .login-button {
-                transition: color 0.3s ease-in-out;
-                line-height: 42px;
-                &:hover {
-                    color: $red;
-                }
-            }
-            .signup-button {
-                background-color: $red-button;
-                text-transform: capitalize;
-                line-height: 42px;
-                padding:0 27px ;
-                border-radius:  19px;
-                transition: background-color 0.3s ease-in-out;
-                &:hover{
-                    background-color: darken($red-button, 15);
-                }
-            }
         }
     }
 }

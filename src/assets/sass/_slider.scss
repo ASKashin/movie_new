@@ -1,0 +1,23 @@
+.slider {
+    position: relative;
+    .slick-arrow {
+        position: absolute;
+        margin-top: -10px;
+        top: 50%;
+        color: $white;
+        &.slick-prev {
+            left: -80px;
+        }
+        &.slick-next {
+            right: -80px;
+        }
+    }
+
+    div {
+        max-height: 197px;
+        a {
+            display: block;
+            position: relative;
+        }
+    }
+}
