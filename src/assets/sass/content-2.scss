@@ -1,0 +1,74 @@
+@import "colors";
+
+.content-2 {
+    background: url("../img/bg2.jpg") center top no-repeat,$blue;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 66px 0;
+        .film-poster {
+        }
+        .info {
+            margin-top: 67px;
+            text-align: right;
+            .categories {
+                text-transform: uppercase;
+                font-size: 14px;
+                &__year {
+                    padding: 0 9px;
+                    line-height: 21px;
+                    border-radius: 2px;
+                    background-color: $yellow;
+                    margin-right: 13px;
+                }
+                &__action {
+                    padding: 0 9px;
+                    line-height: 21px;
+                    border-radius: 2px;
+                    background-color: $light-blue;
+                    margin-right: 13px;
+                }
+                &__adventure {
+                    background-color: $orange;
+                    padding: 0 9px;
+                    line-height: 21px;
+                    border-radius: 2px;
+                }
+            }
+            &__name {
+                margin-top: 20px;
+                font-size: 36px;
+            }
+            &__story {
+                width: 470px;
+                margin-top: 40px;
+            }
+            .wrapper {
+                text-transform: uppercase;
+                font-size: 12px;
+                margin-top: 45px;
+                .play-button {
+                    display: inline-block;
+                    line-height: 42px;
+                    border-radius: 19px;
+                    padding: 0 20px;
+                    background-color: $red-button;
+                    margin-right: 25px;
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+                .add-button {
+                    display: inline-block;
+                    line-height: 42px;
+                    border-radius: 19px;
+                    padding: 0 20px;
+                    background-color: $black;
+                    i {
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

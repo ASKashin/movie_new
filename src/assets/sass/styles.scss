@@ -37,9 +37,11 @@ h3 {
 }
 
 h4 {
-    font-weight: 300;
-    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $white;
 }
 
 @import "header";
-@import "content";
+@import "content-1";
+@import "content-2";
