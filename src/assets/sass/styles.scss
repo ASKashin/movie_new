@@ -3,6 +3,9 @@
 @import "variables";
 @import "buttons";
 @import "slider";
+@import "tags";
+
+
 
 * {
     box-sizing: border-box;
@@ -43,6 +46,11 @@ h4 {
     text-transform: uppercase;
     color: $white;
 }
+h5{
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #b0b0b0;
+}
 
 
 
@@ -50,4 +58,5 @@ h4 {
 @import "header";
 @import "content-1";
 @import "content-2";
+@import "popular";
 @import "sale";

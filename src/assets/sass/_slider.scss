@@ -1,15 +1,19 @@
 .slider {
     position: relative;
     .slick-arrow {
+        cursor: pointer;
+        font-size: 30px;
+        // font-weight: 300;
         position: absolute;
-        margin-top: -10px;
+        margin-top: -14px;
         top: 50%;
         color: $white;
+        opacity: 0.3;
         &.slick-prev {
-            left: -80px;
+            left: -50px;
         }
         &.slick-next {
-            right: -80px;
+            right: -40px;
         }
     }
 
