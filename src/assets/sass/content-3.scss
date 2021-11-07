@@ -1,0 +1,19 @@
+@import "colors";
+
+.content-3 {
+    .slider2 {
+        width: 80%;
+        margin: 0 auto;
+        .slick-list{
+            margin: 0 auto;
+        }
+        &__item {
+            &--active {
+                background-color: $red-button;
+                &:hover {
+                    background-color: darken($red-button, 15);
+                }
+            }
+        }
+    }
+}

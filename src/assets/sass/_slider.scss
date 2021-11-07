@@ -1,26 +1,46 @@
-.slider {
+.slick-slider {
     position: relative;
     .slick-arrow {
         cursor: pointer;
         font-size: 30px;
         position: absolute;
-        margin-top: -14px;
-        top: 50%;
         color: $white;
         opacity: 0.3;
-        &.slick-prev {
-            left: -50px;
-        }
-        &.slick-next {
-            right: -40px;
-        }
+          top: 50%;
     }
-
-    div {
-        max-height: 197px;
+    .slider-item {
         a {
             display: block;
             position: relative;
+        }
+    }
+
+    &.slider {
+        .slick-arrow {
+            margin-top: -14px;
+            &.slick-prev {
+                left: -50px;
+            }
+            &.slick-next {
+                right: -40px;
+            }
+        }
+        .slider-item {
+            max-height: 197px;
+        }
+    }
+    &.slider2 {
+        .slick-slide{
+            height: 26px;
+        }
+        .slick-arrow {
+            margin-top: -14px;
+            &.slick-prev {
+                left: -50px;
+            }
+            &.slick-next {
+                right: -40px;
+            }
         }
     }
 }
