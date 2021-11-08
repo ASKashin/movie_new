@@ -1,0 +1,36 @@
+@import "colors";
+
+.content-5 {
+    background: url("../img/venom-bg.jpg") center top no-repeat, $blue;
+    padding: 66px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .info {
+            margin-top: 67px;
+            text-align: right;
+            .categories {
+                .tag:not(:last-child){
+                    margin-right: 13px;
+                }
+            }
+            &__name {
+                margin-top: 20px;
+                font-size: 36px;
+            }
+            &__story {
+                width: 470px;
+                margin-top: 40px;
+            }
+            .wrapper {
+                text-transform: uppercase;
+                font-size: 12px;
+                margin-top: 45px;
+                .btn:last-child{
+                    margin-left: 25px;
+                }
+                
+            }
+        }
+    }
+}

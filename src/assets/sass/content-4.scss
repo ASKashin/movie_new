@@ -1,0 +1,33 @@
+@import "colors";
+
+.content-4 {
+    padding: 250px 0;
+    background-color: $blue2;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .info {
+            .categories {
+                .tag:not(:last-child){
+                    margin-right: 13px;
+                }
+            }
+            &__name {
+                margin-top: 20px;
+                font-size: 36px;
+            }
+            &__story {
+                width: 470px;
+                margin-top: 40px;
+            }
+            .wrapper {
+                text-transform: uppercase;
+                font-size: 12px;
+                margin-top: 45px;
+                .btn:first-child{
+                    margin-right: 25px;
+                }
+            }
+        }
+    }
+}
