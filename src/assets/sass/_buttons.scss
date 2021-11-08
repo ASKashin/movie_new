@@ -26,6 +26,12 @@
     &.small {
         padding: 0 15px;
     }
+    &.blue{
+        background-color: $blue-button;
+        &:hover {
+            background-color: lighten($blue-button, 5);
+        }
+    }
 }
 
 .btn-small{

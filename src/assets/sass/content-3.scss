@@ -1,6 +1,7 @@
 @import "colors";
 
 .content-3 {
+    padding-bottom: 60px;
     h5 {
         margin-bottom: 35px;
     }
@@ -54,5 +55,11 @@
                 }
             }
         }
+    }
+    .btn-wrapper{
+        text-transform: uppercase;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 50px;
     }
 }
