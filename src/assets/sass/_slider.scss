@@ -2,11 +2,10 @@
     position: relative;
     .slick-arrow {
         cursor: pointer;
-        font-size: 30px;
         position: absolute;
         color: $white;
         opacity: 0.3;
-          top: 50%;
+        top: 50%;
     }
     .slider-item {
         a {
@@ -17,6 +16,7 @@
 
     &.slider {
         .slick-arrow {
+            font-size: 30px;
             margin-top: -14px;
             &.slick-prev {
                 left: -50px;
@@ -30,11 +30,12 @@
         }
     }
     &.slider2 {
-        .slick-slide{
+        .slick-slide {
             height: 26px;
         }
         .slick-arrow {
-            margin-top: -14px;
+            font-size: 20px;
+            margin-top: -10px;
             &.slick-prev {
                 left: -50px;
             }
