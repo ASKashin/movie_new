@@ -20,12 +20,12 @@
         }
     }
     .categories {
-        margin-top: 50px;
         .list {
             display: flex;
             flex-wrap: wrap;
             gap: 15px;
             .list__item {
+                margin-top: 55px;
                 display: inline-block;
                 a {
                     display: block;
@@ -38,10 +38,11 @@
                     justify-content: space-between;
                     color: $dark-grey;
                     margin-top: 12px;
-                    .button {
+                    .btn-group {
                         display: flex;
-                          gap: 10px;
+                        gap: 10px;
                         button {
+                            cursor: pointer;
                             background-color: transparent;
                             border: none;
                             color: $dark-grey;
