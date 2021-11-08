@@ -1,11 +1,12 @@
 @import "colors";
 
 .content-5 {
-    background: url("../img/venom-bg.jpg") center top no-repeat, $blue;
+    background: url("../img/venom-bg.jpg") center top no-repeat;
     padding: 66px 0;
     .container {
         display: flex;
         justify-content: space-between;
+        
         .info {
             margin-top: 67px;
             text-align: right;
