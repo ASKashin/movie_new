@@ -26,6 +26,10 @@
                 text-transform: capitalize;
                 font-weight: 400;
                 // margin-top: 25px;не работает
+                transition: color 0.3s ease-in-out;
+                &:hover {
+                    color: darken($white, 25);
+                }
                 i{
                     margin-left: 6px;
                     font-size: 10px;
@@ -61,6 +65,10 @@
                         font-weight: 300;
                         font-size: 12px;
                         color: $dark-grey;
+                        transition: color 0.3s ease-in-out;
+                        &:hover {
+                            color: lighten($dark-grey, 25);
+                        }
                     }
                 }
             }

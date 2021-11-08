@@ -1,0 +1,30 @@
+@import "colors";
+.content-7{
+    .container{
+        padding-top: 30px;
+        padding-bottom: 50px;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            .list{
+                display: inline-block;
+                position: relative;
+                &__text{
+                    position: absolute;
+                  width: 255px; 
+                  bottom: 15px;
+                  left: 8px;
+                  color: $white;
+                  line-height: 23px;
+                  font-weight: 500;
+                }
+            }
+        }
+        .btn-wrapper{
+            text-transform: uppercase;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    }
+}
