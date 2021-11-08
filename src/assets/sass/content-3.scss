@@ -1,14 +1,13 @@
 @import "colors";
 
 .content-3 {
-    h5{
-    margin-bottom: 35px;   
+    h5 {
+        margin-bottom: 35px;
     }
     .slider2 {
-        
         width: 80%;
         margin: 0 auto;
-        .slick-list{
+        .slick-list {
             margin: 0 auto;
         }
         &__item {
@@ -20,22 +19,39 @@
             }
         }
     }
-    .categories{
-       ul{
-           display: flex;
-           flex-wrap: wrap;
-           gap: 15px;
-           li{
-               display: inline-block;
-               a{
-                   display: block;
-               }
-               div{
-                   display: flex;
-                   justify-content: space-between;
-               }
-
-           }
-       } 
+    .categories {
+        margin-top: 50px;
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            .list__item {
+                display: inline-block;
+                a {
+                    display: block;
+                    .name {
+                        margin-top: 25px;
+                    }
+                }
+                .wrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    color: $dark-grey;
+                    margin-top: 12px;
+                    .button {
+                        display: flex;
+                          gap: 10px;
+                        button {
+                            background-color: transparent;
+                            border: none;
+                            color: $dark-grey;
+                            i {
+                                padding-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
