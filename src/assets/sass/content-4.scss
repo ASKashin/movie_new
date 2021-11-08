@@ -1,12 +1,13 @@
 @import "colors";
 
 .content-4 {
-    padding: 250px 0;
+    padding: 60px 0;
     background-color: $blue2;
     .container {
         display: flex;
         justify-content: space-between;
         .info {
+            padding-top: 115px;
             .categories {
                 .tag:not(:last-child){
                     margin-right: 13px;
@@ -27,6 +28,12 @@
                 .btn:first-child{
                     margin-right: 25px;
                 }
+            }
+        }
+        .film-poster {
+            &__img {
+                margin-right: 60px;
+                margin-top: 10px;
             }
         }
     }
