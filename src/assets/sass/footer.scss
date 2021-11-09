@@ -18,7 +18,8 @@
       .wrapper-partners {
         margin-top: 50px;
         .title {
-          font-weight: 300;
+          color: $gray;
+          font-weight: 600;
         }
         .partners {
           margin-top: 15px;
@@ -43,7 +44,7 @@
       display: flex;
       justify-content: space-between;
       .categories {
-        .title2 {
+        .title {
           color: $gray;
           font-weight: 600;
         }
@@ -66,7 +67,7 @@
         }
       }
       .menu {
-        .title2 {
+        .title {
           color: $gray;
           font-weight: 600;
         }
