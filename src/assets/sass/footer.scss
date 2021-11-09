@@ -1,11 +1,10 @@
 .footer {
   background: #000b15;
+  padding: 50px 0;
   .container {
     .info {
       width: 260px;
-      .logo {
-        margin-top: 57px;
-      }
+
       .author {
         margin-top: 27px;
         font-weight: 300;
@@ -35,6 +34,28 @@
           font-size: 24px;
           margin-right: 13px;
           color: $gray;
+        }
+      }
+    }
+    .main {
+      .categories {
+        .title2 {
+        }
+        .wrapper-list {
+          .list {
+            &__item {
+            }
+          }
+        }
+      }
+      .menu {
+        .title2 {
+        }
+        .wrapper-list {
+          .list {
+            &__item {
+            }
+          }
         }
       }
     }
