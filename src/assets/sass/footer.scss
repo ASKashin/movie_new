@@ -43,7 +43,7 @@
     .main {
       display: flex;
       justify-content: space-between;
-      .categories {
+      .menu {
         .title {
           color: $gray;
           font-weight: 600;
@@ -66,28 +66,28 @@
           }
         }
       }
-      .menu {
-        .title {
-          color: $gray;
-          font-weight: 600;
-        }
-        .wrapper-list {
-          font-weight: 300;
-          margin-top: 30px;
-          display: flex;
-          .list {
-            text-transform: capitalize;
-            width: 160px;
-            &__item {
-              line-height: 30px;
-              display: block;
-              a{
-                color: $dark-grey2;
-              }
-            }
-          }
-        }
-      }
+      // .menu {
+      //   .title {
+      //     color: $gray;
+      //     font-weight: 600;
+      //   }
+      //   .wrapper-list {
+      //     font-weight: 300;
+      //     margin-top: 30px;
+      //     display: flex;
+      //     .list {
+      //       text-transform: capitalize;
+      //       width: 160px;
+      //       &__item {
+      //         line-height: 30px;
+      //         display: block;
+      //         a{
+      //           color: $dark-grey2;
+      //         }
+      //       }
+      //     }
+      //   }
+      // }
     }
   }
 }
