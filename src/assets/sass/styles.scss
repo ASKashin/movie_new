@@ -13,10 +13,15 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background: url("../img/bg1.jpg") center top no-repeat, $blue;
     color: $gray;
     font-size: 14px;
     line-height: 23px;
+    &.main {
+        background: url("../img/bg1.jpg") center top no-repeat, $blue;
+    }
+    &.movies {
+        background: url("../img/bg1.jpg") center top no-repeat, $blue;
+    }
 }
 
 .flex {
