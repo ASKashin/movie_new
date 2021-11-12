@@ -1,0 +1,58 @@
+@import "colors.scss";
+
+.content-2-1 {
+    margin-top: 110px;
+    .container {
+        display: flex;
+        gap: 65px;
+        .film-poster {
+        }
+        .wrapper-info {
+            display: flex;
+            justify-content: space-between;
+            .info {
+                width: 644px;
+                &__name {
+                    font-size: 36px;
+                    margin-bottom: 45px;
+                }
+                .info-film {
+                    &__item {
+                        span {
+                            color: #0ea4f1;
+                        }
+                    }
+                }
+
+                .info-story {
+                    &__item{
+                        
+                    }
+                }
+            }
+            .button {
+                .btn2 {
+                    text-transform: uppercase;
+                }
+                .wrapper-star {
+                    display: flex;
+                    margin-top: 20px;
+                    align-items: center;
+                    justify-content: end;
+                    .stars {
+                        display: flex;
+                        gap: 5px;
+                        .stars__item {
+                            display: inline-block;
+                        }
+                    }
+                    .procent {
+                        display: inline-block;
+                        color: #0ea4f1;
+                        margin-left: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
