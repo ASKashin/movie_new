@@ -14,19 +14,19 @@
                 width: 644px;
                 &__name {
                     font-size: 36px;
-                    margin-bottom: 45px;
                 }
                 .info-film {
+                    margin-top: 45px;
                     &__item {
                         span {
                             color: #0ea4f1;
                         }
                     }
                 }
-
                 .info-story {
-                    &__item{
-                        
+                    margin-top: 50px;
+                    &__item:last-child {
+                        margin-top: 20px;
                     }
                 }
             }
