@@ -20,7 +20,7 @@ body {
         background: url("../img/bg1.jpg") center top no-repeat, $blue;
     }
     &.movies {
-        background: url("../img/bg1.jpg") center top no-repeat, $blue;
+        background: url("../img/bg2-1.png") center top no-repeat, $blue;
     }
 }
 
@@ -72,3 +72,4 @@ h6 {
 @import "popular";
 @import "footer";
 @import "content-2-1";
+@import "content-2-2";

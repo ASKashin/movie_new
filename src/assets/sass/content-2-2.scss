@@ -1,0 +1,41 @@
+@import "colors.scss";
+.content-2-2{
+    padding: 50px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        .articles {
+            display: flex;
+            flex-direction: column;
+            gap: 37px;
+            margin-top: 25px;
+            &__item {
+                display: flex;
+                width: 290px;
+                .articles__img {
+                    margin-right: 25px;
+                }
+                .wrapper {
+                    line-height: 23px;
+                    .text1 {
+                        margin-top: 5px;
+                        color: $white;
+                        font-weight: 400;
+                    }
+                    .text2 {
+                        font-weight: 300;
+                        font-size: 12px;
+                        color: $dark-grey;
+                        transition: color 0.3s ease-in-out;
+                        &:hover {
+                            color: lighten($dark-grey, 25);
+                        }
+                    }
+                }
+            }
+        }
+        .film-poster{
+            margin-top: 49px;
+        }
+    }
+}
