@@ -4,6 +4,8 @@
 @import "buttons";
 @import "slider";
 @import "tags";
+@import "decorations";
+
 
 * {
     box-sizing: border-box;
@@ -23,6 +25,9 @@ body {
         background: url("../img/bg2-1.png") center top no-repeat, $blue;
     }
     &.my-list {
+        background: url("../img/bg1.jpg") center top no-repeat, $blue;
+    }
+    &.blog-page {
         background: url("../img/bg1.jpg") center top no-repeat, $blue;
     }
 }
@@ -77,3 +82,4 @@ h6 {
 @import "content-2-1";
 @import "content-2-2";
 @import "content-3-1";
+@import "content-4-1";

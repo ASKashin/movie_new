@@ -1,0 +1,133 @@
+@import "colors";
+.content-4-1 {
+    padding: 50px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .blog {
+            width: 215px; 
+            .blog-categories {
+                .title{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: $white;
+                }
+                ul{
+                    list-style: none;
+                    li:before{
+                        content: "\2013";
+                    }
+                   
+                }
+            }
+            .search-form {
+                position: relative;
+                &__input {
+                    background-color: transparent;
+                    border: 1px solid $white;
+                    color: $white;
+                    font-size: 14px;
+                    width: 215px;
+                    height: 50px;
+                    line-height: 50px;
+                    padding-left: 20px;
+                    font-weight: 300;
+                    &::placeholder,
+                    &::-webkit-input-placeholder {
+                        color: $white;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        font-weight: 300;
+                    }
+                    &:focus {
+                        outline: none;
+                    }
+                }
+                &__decoration {
+                    background-color: $white;
+                    width: 1px;
+                    height: 27px;
+                    position: absolute;
+                    right: 40px;
+                    top: 11px;
+                }
+                &__button {
+                    background-color: transparent;
+                    border: none;
+                    position: absolute;
+                    color: $white;
+                    right: 12px;
+                    top: 17px;
+                    font-size: 18px;
+                    cursor: pointer;
+                }
+            }
+           
+        }
+        .film-info {
+            .wrapper {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+                .info {
+                    width: 461px;
+                    &__name {
+                        font-size: 36px;
+                        line-height: 100%;
+                        margin-top: 70px;
+                    }
+                    &__story {
+                        font-weight: 300;
+                        line-height: 23px;
+                    }
+                    .story-1 {
+                        margin-top: 40px;
+                    }
+                    .story-2 {
+                        margin: 25px 0;
+                    }
+                    &__reading {
+                        text-transform: capitalize;
+                        font-weight: 400;
+                        transition: color 0.3s ease-in-out;
+                        &:hover {
+                            color: darken($white, 25);
+                        }
+                        i {
+                            margin-left: 6px;
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+            .btn-wrapper {
+                text-transform: uppercase;
+                font-size: 12px;
+                text-align: center;
+                margin-top: 50px;
+            }
+            .news {
+                padding: 30px 0 50px;
+                ul {
+                    margin: 0 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 25px;
+                    .list {
+                        display: inline-block;
+                        position: relative;
+                        &__text {
+                            position: absolute;
+                            width: 255px;
+                            bottom: 15px;
+                            left: 8px;
+                            color: $white;
+                            line-height: 23px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
