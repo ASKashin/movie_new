@@ -37,6 +37,10 @@
           font-size: 24px;
           margin-right: 13px;
           color: $gray;
+          transition: color 0.3s ease-in-out;
+          &:hover {
+            color: lighten($gray, 15);
+          }
         }
       }
     }
@@ -59,8 +63,12 @@
             &__item {
               line-height: 30px;
               display: block;
-              a{
+              a {
                 color: $dark-grey2;
+                transition: color 0.3s ease-in-out;
+                &:hover {
+                  color: lighten($dark-grey2, 15);
+                }
               }
             }
           }
