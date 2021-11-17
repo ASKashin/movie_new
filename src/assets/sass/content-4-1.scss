@@ -5,21 +5,99 @@
         display: flex;
         justify-content: space-between;
         .blog {
-            width: 215px; 
+            width: 215px;
             .blog-categories {
-                .title{
+                .title {
                     font-weight: 400;
                     font-size: 14px;
                     color: $white;
+                    margin-top: 35px;
                 }
-                ul{
+                .blog-decoration {
+                    margin-top: 15px;
+                }
+                .categories-list {
                     list-style: none;
-                    li:before{
-                        content: "\2013";
+                    margin: 20px 0;
+                    .categories-list__item:before {
+                        content: "\2015";
+                        padding-right: 5px;
+                        line-height: 39px;
                     }
-                   
                 }
             }
+            .blog-posts {
+                .title {
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: $white;
+                    margin-top: 35px;
+                }
+                .blog-decoration {
+                    margin-top: 15px;
+                }
+                .post {
+                    margin: 35px 0 35px;
+                    padding-left: 70px;
+                    background: url(../img/post-img.jpg) left 4px no-repeat;
+                    .text1 {
+                        font-weight: 300;
+                        font-size: 15px;
+                        color: $white;
+                        line-height: normal;
+                    }
+                    .text2 {
+                        font-weight: 300;
+                        font-size: 14px;
+                        color: #909090;
+                        line-height: normal;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .blog-archives {
+                .title {
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: $white;
+                    margin-top: 44px;
+                    // как тут сделать чтобы маржины не накладывались
+                }
+                .blog-decoration {
+                    margin-top: 15px;
+                }
+                .archives-list {
+                    list-style: none;
+                    margin: 20px 0;
+                    .archives-list__item:before {
+                        content: "\2015";
+                        padding-right: 5px;
+                        line-height: 39px;
+                    }
+                }
+            }
+            .blog-meta {
+                .title {
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: $white;
+                    margin-top: 44px;
+                    // как тут сделать чтобы маржины не накладывались
+                }
+                .blog-decoration {
+                    margin-top: 15px;
+                }
+                .meta-list {
+                    list-style: none;
+                    margin: 20px 0;
+                    .meta-list__item:before {
+                        content: "\2015";
+                        padding-right: 5px;
+                        line-height: 39px;
+                    }
+                }
+            }
+
             .search-form {
                 position: relative;
                 &__input {
@@ -62,7 +140,6 @@
                     cursor: pointer;
                 }
             }
-           
         }
         .film-info {
             .wrapper {
