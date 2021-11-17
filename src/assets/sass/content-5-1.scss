@@ -1,6 +1,6 @@
 @import "colors";
 .content-5-1 {
-    padding-top: 50px 0;
+    margin: 35px 0 100px;
     .container {
         display: flex;
         .blog {
@@ -159,7 +159,80 @@
             }
         }
         .film-info {
-           
+            margin-left: 70px;
+            .film-name{
+                font-size: 36px;
+                margin-top: 40px;
+            }
+            .comments {
+                margin-top: 25px;
+                .comment {
+                    margin-right: 20px;
+                }
+                i {
+                    padding-right: 5px;
+                    font-size: 16px;
+                }
+                span {
+                    font-size: 12px;
+                }
+            }
+
+            .film-story {
+                .story {
+                    margin-top: 30px;
+                }
+            }
+            .socials {
+                margin-top: 70px;
+                .title {
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: $white;
+                    margin-bottom: 10px;
+                }
+                .socials__item {
+                    font-size: 15px;
+                    margin-right: 13px;
+                    color: $white;
+                    transition: color 0.3s ease-in-out;
+                    &:hover {
+                        color: darken($white, 25);
+                    }
+                }
+            }
+            .blog-decoration2 {
+                margin-top: 60px;
+            }
+            .articles {
+                display: flex;
+                gap: 100px;
+                margin-top: 90px;
+                &__item {
+                    display: flex;
+                    width: 290px;
+                    .articles__img {
+                        margin-right: 25px;
+                    }
+                    .wrapper {
+                        line-height: 23px;
+                        .text1 {
+                            margin-top: 5px;
+                            color: $white;
+                            font-weight: 400;
+                        }
+                        .text2 {
+                            font-weight: 300;
+                            font-size: 12px;
+                            color: $dark-grey;
+                            transition: color 0.3s ease-in-out;
+                            &:hover {
+                                color: lighten($dark-grey, 25);
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
